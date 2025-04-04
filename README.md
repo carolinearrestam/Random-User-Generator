@@ -36,6 +36,6 @@ The backend API at http://localhost:3000/api/profiles fetches profiles from the 
 
 http://localhost:3000/api/profiles?count=50
 
-Request fetches 50 random profiles. You can adjust the number of profiles by changing the endpoint with count parameter in the query string. For example, to fetch 10 profiles, you would use:
+Request fetches 50 random profiles. You can adjust the number of profiles by changing the endpoint with count parameter in the query string in example Postman. For example, to fetch 10 profiles, you would use:
 
 http://localhost:3000/api/profiles?count=10
