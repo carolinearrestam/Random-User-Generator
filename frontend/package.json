@@ -1,0 +1,15 @@
+{
+  "name": "Random-User-Generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "build": "vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}

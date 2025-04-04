@@ -1,0 +1,97 @@
+.filter-container {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3382c3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+.filter-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filter-box>select {
+    width: 45%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.filter-box select option {
+    padding: 10px;
+}
+
+.filter-menu {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    z-index: 10;
+    top: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.filter-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.filter-option {
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.filter-option:hover {
+    background-color: #f8f9fa;
+}
+
+.filter-dropdown {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.filter-dropdown option {
+    padding: 10px;
+}
